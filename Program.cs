@@ -49,7 +49,6 @@ namespace PerfectCombo_Ryze
 				AIHeroClient target = TargetIn;
 				if (Initiate)
 				{
-					Chat.Print("initiate");
 					if (Q.IsReady())
 					{
 						Q.Cast(target);
